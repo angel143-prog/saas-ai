@@ -28,14 +28,14 @@
       }
     ],
     "paths": {
-      // "@/*": ["./*"],
-      "@/*": ["./src/*"],
-      "@/assets/*": ["public/assets/*"],
-      "@/components/*": ["src/common/components/*"],
-      "@/data/*": ["src/common/data/*"],
-      "@/hooks/*": ["src/common/hooks/*"],
-      "@/modules/*": ["src/modules/*"],
-      "@/server-lib/*": ["src/common/server-lib/*"]
+      "@/*": ["./src/*"]
+      // "@/*": ["./src/*"],
+      // "@/assets/*": ["public/assets/*"],
+      // "@/components/*": ["src/common/components/*"],
+      // "@/data/*": ["src/common/data/*"],
+      // "@/hooks/*": ["src/common/hooks/*"],
+      // "@/modules/*": ["src/modules/*"],
+      // "@/server-lib/*": ["src/common/server-lib/*"]
     }
   },
   "include": [
