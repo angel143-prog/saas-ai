@@ -28,9 +28,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
       // "@/*": ["./src/*"],
-      // "@/assets/*": ["public/assets/*"],
+      "@/assets/*": ["public/assets/*"]
       // "@/components/*": ["src/common/components/*"],
       // "@/data/*": ["src/common/data/*"],
       // "@/hooks/*": ["src/common/hooks/*"],
