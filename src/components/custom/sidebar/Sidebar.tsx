@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Logo from "./Logo";
+import SidebarLinks from "./SidebarLinks";
 
 const Sidebar = () => {
   return (
@@ -11,6 +12,7 @@ const Sidebar = () => {
           <Link href="/dashboard" className="flex items-center pl-3 mb-14">
             <Logo />
           </Link>
+          <SidebarLinks />
         </div>
       </div>
     </div>
