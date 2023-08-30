@@ -1,9 +1,14 @@
 import { LucideIcon } from "lucide-react";
 
-const Icon = ({ IconName, ...props }: { IconName: LucideIcon }) => {
+interface IconProps {
+  IconName: LucideIcon;
+  classname: string;
+}
+
+const Icon = ({ IconName, classname }: IconProps) => {
   return (
     <>
-      <IconName {...props} />
+      <IconName className={classname} />
     </>
   );
 };
