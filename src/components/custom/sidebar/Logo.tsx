@@ -1,10 +1,8 @@
-import Image from "next/image";
 import { Montserrat } from "next/font/google";
-
+import Image from "next/image";
 import { cn } from "@/lib/utils";
 
 const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
-
 const Logo = () => {
   return (
     <>
